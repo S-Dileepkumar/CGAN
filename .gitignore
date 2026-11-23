@@ -1,0 +1,7 @@
+__pycache__/
+*.egg-info/
+.venv/
+data/tiny_lm/*.txt
+data/tiny_lm/enwik8*
+results/logs/*.jsonl
+*.pt

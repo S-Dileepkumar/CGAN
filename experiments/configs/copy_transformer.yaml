@@ -1,0 +1,20 @@
+task:
+  name: copy
+  seq_len: 65
+  vocab: 16
+model:
+  name: transformer
+  d_model: 128
+  n_layers: 2
+  n_heads: 4
+  dropout: 0.0
+train:
+  steps: 3000
+  batch_size: 64
+  lr: 0.001
+  weight_decay: 0.01
+  eval_every: 250
+  eval_batches: 20
+  seed: 0
+  device: null
+  out: results/logs/copy_transformer
